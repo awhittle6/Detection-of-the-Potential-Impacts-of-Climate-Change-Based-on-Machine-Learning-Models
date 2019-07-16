@@ -1,14 +1,14 @@
 # Motivation: 
 Climate change has become one of the most significant problems in recent years. It is not only a meteorological problem but also an ecological, economic, political and humanistic issue. Substantial efforts have been made to analyze the trends and impacts of climate change and deal with a series of corresponding situations.
 
-The prediction of weather has always been complicated. The process is subject to a huge number of factors and becomes really chaotic. However, the development of machine learning reveals a new possibility for us to solve such a problem. On the one hand, there is tons of weather data collected every second all over the world. We need to inspect this data to distinguish the trends of climate change in each specific region. This task can never be accomplished without the help of machine learning. On the other hand, the impacts of climate change exist across every aspect of our society and environment, but sometimes the relationships are hidden and we need to dig deep into the data to figure them out. 
+The prediction of weather has always been complicated. The process is subject to a huge number of factors and becomes really chaotic. However, the development of machine learning reveals a new possibility for us to solve such a problem. One the one hand, there is tons of weather data collected every second all over the world. We need to inspect this data to distinguish the trends of climate change in each specific region. This task can never be accomplished without the help of machine learning. On the other hand, the impacts of climate change exist across every aspect of our society and environment, but sometimes the relationships are hidden and we need to dig deep into the data to figure them out. 
 
 Most of the previous research focuses on the ecological impacts of climate change which have more or less an evident relationship we can sense based on our knowledge. In our project, we will try to distinguish the impacts which may seem vague at first glance. We will employ different kinds of regression models to analyze several important aspects such as population density, disease rate, industry, agricultural output, etc. in order to demonstrate the huge influence that climate change has on us.
 
 # Data Preprocessing:
-In our analysis, we use annual GDP growth, annual average temperature and annual average precipitation in our model. Our main source of data are the World Bank’s World Development Indicators and Climate Change Knowledge Portal, which cover the years 1960-2016 for all countries in the world, although data for only a subset of years are available for some countries. We focus on the data in recent years, that is, 2003-2016. And we filter out 179 countries in the world with our complete data set. Our full dataset contains 2506 country-year observations across 179 countries and during 14 years. Each of the observations has 3 dimensions: GDP growth, temperature and precipitation.
+In our analysis, we use annual GDP growth, annual average temperature and annual average precipitation in our model. Our main source of data are the World Bank’s World Development Indicators and Climate Change Knowledge Portal, which cover the years 1960-2016 for all countries in the world, although data for only a subset of years are available for some countries. We focus on the data in recent years, that is, 2003-2016. And we filter out 179 countries in the world with complete data set. Our full dataset contains 2506 country-year observations across 179 countries and during 14 years. Each of the observation has 3 dimensions: GDP growth, temperature and precipitation.
 
-Before we try to fit our model, we briefly look at the impact of time, temperature and precipitation on GDP growth, as shown in below pictures.
+Before we try to fit our model, we briefly look at the impact of time, temperature and precipitation on GDP growth, as shown in below pictures. We use the logarithmic difference to represent the GDP growth. The unit of temperature and precipitation is Celsius and mm respectively.
 
 ![Test Image 1](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/GDPGrowthVersusTime.png)
 ![Test Image 2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/GDPGrowthVersusTemp.png)
@@ -40,8 +40,6 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 [12] https://en.wikipedia.org/wiki/Arellano%E2%80%93Bond_estimator
 
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
-
-[14]Jason Hartford, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. Deep IV: A flexible approach for counterfactual prediction. Proceedings of the 34th International Conference on Machine Learning, ICML'17, 2017.
 
 # Transforming the Data
 
