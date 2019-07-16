@@ -42,7 +42,7 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
 
 # Transforming the Data
-Before discussing the methods implemented in order to tranform this specific dataset, we have created a table that lists all possible 
+Before discussing the methods implemented in order to tranform this specific dataset,here is a table that lists all varibales used throughout this process.
 
 | Dependent Variables | Features |
 | --- | --- |
@@ -50,3 +50,6 @@ Before discussing the methods implemented in order to tranform this specific dat
 |   | Temperature Squared (Tsqaure)(C square)|
 |   | Precipitation (P)(mm)|
 |   | Precipitation Squared (Psquare)(mm square)|
+
+Note: The reason for making use of Tsquare and Psquare is to 'create' more features for finding possible stronger correlations on our data.
+For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and makes the use of lag dependent variables as regressors. 
