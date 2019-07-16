@@ -33,9 +33,7 @@ For our first part in transforming the data, we implement the Arellano–Bond es
 ## Arellano–Bond method (using STATA):
 ### Linear regression function:
 
-$\begin{equation*}
-Y_{i,t} = \beta_0 + \beta_1 * Y_{i,t-1} + \beta_2 * T_{i,t} + \beta_3 * T_{i,t}^2 + \beta_4 * P_{i,t} + \beta_5 * P_{i,t}^2 + \epsilon_{i,t}
-\end{equation}$
+$Y_{i,t} = \beta_0 + \beta_1 * Y_{i,t-1} + \beta_2 * T_{i,t} + \beta_3 * T_{i,t}^2 + \beta_4 * P_{i,t} + \beta_5 * P_{i,t}^2 + \epsilon_{i,t}$
 
 where
 - $Y$: growth rate of GDP per capita
