@@ -43,6 +43,8 @@ For our first part in transforming the data, we implement the Arellano–Bond es
 
 ![image of results2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_tsqr.png)
 
+
+
 ## DeepIV (Hartford et al, 2017)
 
 ![image of deepiv](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/deepIVmethod.png)
