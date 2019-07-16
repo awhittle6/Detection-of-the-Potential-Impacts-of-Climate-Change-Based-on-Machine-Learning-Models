@@ -42,7 +42,7 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
 
 # Transforming the Data
-
+Before discussing the methods implemented in order to tranform this specific dataset, we have created a table that lists all possible 
 | Dependent Variables | Features |
 | --- | --- |
 | Y | Temperature (T)(C)|
