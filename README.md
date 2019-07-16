@@ -43,6 +43,7 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 
 # Transforming the Data
 Before discussing the methods implemented in order to tranform this specific dataset, we have created a table that lists all possible 
+
 | Dependent Variables | Features |
 | --- | --- |
 | Y | Temperature (T)(C)|
