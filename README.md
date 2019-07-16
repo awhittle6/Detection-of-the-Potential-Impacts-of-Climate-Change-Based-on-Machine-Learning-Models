@@ -41,6 +41,8 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
 
+[14]Jason Hartford, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. Deep IV: A flexible approach for counterfactual prediction. Proceedings of the 34th International Conference on Machine Learning, ICML'17, 2017.
+
 # Transforming the Data
 Before discussing the methods implemented in order to tranform this specific dataset,here is a table that lists all varibales used throughout this process.
 
