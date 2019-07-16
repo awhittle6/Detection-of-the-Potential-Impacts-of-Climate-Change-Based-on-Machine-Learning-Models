@@ -40,3 +40,12 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 [12] https://en.wikipedia.org/wiki/Arellano%E2%80%93Bond_estimator
 
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
+
+# Transforming the Data
+
+| Dependent Variables | Features |
+| --- | --- |
+| Y | Temperature (T)(C)|
+|   | Temperature Squared (Tsqaure)(C square)|
+|   | Precipitation (P)(mm)|
+|   | Precipitation Squared (Psquare)(mm square)|
