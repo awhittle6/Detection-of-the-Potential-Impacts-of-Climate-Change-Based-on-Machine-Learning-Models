@@ -14,6 +14,38 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 ![Test Image 2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/GDPGrowthVersusTemp.png)
 ![Test Image 2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/GDPGrowthVersusPre.png)
 
+
+# Transforming the Data
+Before discussing the methods implemented in order to tranform this specific dataset,here is a table that lists all varibales used throughout this process.
+
+| Dependent Variables | Features |
+| --- | --- |
+| Y | Temperature (T)(C)|
+|   | Temperature Squared (Tsqaure)(C square)|
+|   | Precipitation (P)(mm)|
+|   | Precipitation Squared (Psquare)(mm square)|
+
+Note: The reason for making use of Tsquare and Psquare is to 'create' more features for finding possible stronger correlations on our data.
+
+For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and makes the use of lag dependent variables as regressors. In the Arellano–Bond method, first difference of the regression equation are taken to eliminate the fixed effects. Then, deeper lags of the dependent variable are used as instruments for differenced lags of the dependent variable (which are endogenous).
+
+# Data Analysis
+## Arellano–Bond method (using STATA):
+### Linear regression function:
+$Y_{i,t} = \beta_0 + \beta_1 * Y_{i,t-1} + \beta_2 * T_{i,t} + \beta_3 * T_{i,t}^2 + \beta_4 * P_{i,t} + \beta_5 * P_{i,t}^2 + \epsilon_{i,t}$
+where
+- $Y$: growth rate of GDP per capita
+- $T$: temperature
+- $P$: precipitation
+
+
+![Image of Yaktocat](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/stata%20best%20result.jpg)
+
+![image of results1](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_t.png)
+
+![image of results2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_tsqr.png)
+
+
 # References:
 [1]Araújo, Miguel B., and Carsten Rahbek. "How does climate change affect biodiversity?." Science 313.5792 (2006): 1396-1397.
 
@@ -42,33 +74,3 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 [13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
 
 [14]Jason Hartford, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. Deep IV: A flexible approach for counterfactual prediction. Proceedings of the 34th International Conference on Machine Learning, ICML'17, 2017.
-
-# Transforming the Data
-Before discussing the methods implemented in order to tranform this specific dataset,here is a table that lists all varibales used throughout this process.
-
-| Dependent Variables | Features |
-| --- | --- |
-| Y | Temperature (T)(C)|
-|   | Temperature Squared (Tsqaure)(C square)|
-|   | Precipitation (P)(mm)|
-|   | Precipitation Squared (Psquare)(mm square)|
-
-Note: The reason for making use of Tsquare and Psquare is to 'create' more features for finding possible stronger correlations on our data.
-
-For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and makes the use of lag dependent variables as regressors. In the Arellano–Bond method, first difference of the regression equation are taken to eliminate the fixed effects. Then, deeper lags of the dependent variable are used as instruments for differenced lags of the dependent variable (which are endogenous).
-
-# Results
-## From the Arellano–Bond method in STATA:
-### Linear regression function:
-$Y_{i,t} = \beta_0 + \beta_1 * Y_{i,t-1} + \beta_2 * T_{i,t} + \beta_3 * T_{i,t}^2 + \beta_4 * P_{i,t} + \beta_5 * P_{i,t}^2 + \epsilon_{i,t}$
-where
-- $Y$: growth rate of GDP per capita
-- $T$: temperature
-- $P$: precipitation
-
-
-![Image of Yaktocat](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/stata%20best%20result.jpg)
-
-![image of results1](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_t.png)
-
-![image of results2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_tsqr.png)
