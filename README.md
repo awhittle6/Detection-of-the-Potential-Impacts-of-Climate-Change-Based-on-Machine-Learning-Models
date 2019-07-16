@@ -33,7 +33,7 @@ For our first part in transforming the data, we implement the Arellano–Bond es
 ## Arellano–Bond method (using STATA)
 ### Linear regression function:
 
-![Image of ab](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/ab%20eqn.png)
+![Image of ab](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/abeqn.png)
 
 ### Results:
 
