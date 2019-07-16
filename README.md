@@ -64,3 +64,4 @@ From the Arellano–Bond method in STATA:
 
 ![image of results1](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_t.png)
 
+![image of results2](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_tsqr.png)
