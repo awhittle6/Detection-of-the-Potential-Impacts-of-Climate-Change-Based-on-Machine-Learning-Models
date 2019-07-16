@@ -6,3 +6,26 @@ The prediction of weather has always been complicated. The process is subject to
 Most of the previous research focuses on the ecological impacts of climate change which have more or less an evident relationship we can sense based on our knowledge. In our project, we will try to distinguish the impacts which may seem vague at first glance. We will employ different kinds of regression models to analyze several important aspects such as population density, disease rate, industry, agricultural output, etc. in order to demonstrate the huge influence that climate change has on us.
 
 # Data Preprocessing
+
+# References:
+[1]Araújo, Miguel B., and Carsten Rahbek. "How does climate change affect biodiversity?." Science 313.5792 (2006): 1396-1397.
+
+[2]Benito Garzón, Marta, Rut Sánchez de Dios, and Helios Sainz Ollero. "Effects of climate change on the distribution of Iberian tree species." Applied Vegetation Science 11.2 (2008): 169-178.
+
+[3]Bunn, Christian, et al. "A bitter cup: climate change profile of global production of Arabica and Robusta coffee." Climatic Change 129.1-2 (2015): 89-101.
+
+[4]Dong, Weihua, Xian’en Li, Peng Yang, Hua Liao, Xiaoli Wang and Quanyi Wang. "The effects of weather factors on hand, foot and mouth disease in Beijing". Scientific Reports 6 (2016): 1-9.
+
+[5]Hamilton, Jacqueline M., David J. Maddison, and Richard SJ Tol. "Climate change and international tourism: a simulation study." Global environmental change 15.3 (2005): 253-266.
+
+[6]Berkhout, Frans, Julia Hertin, and Andrew Jordan. "Socio-economic futures in climate change impact assessment: using scenarios as ‘learning machines’." Global Environmental Change 12.2 (2002): 83-95.
+
+[7]Samson, Jason, Berteaux, D., McGill, B.J. and Humphries, M.M. "Geographic disparities and moral hazards in the predicted impacts of climate change on human populations". Global Ecology and Biogeography 20 (2011): 532-544.
+
+[8]Schlenker, Wolfram and Michael J. Roberts. "Nonlinear temperature effects indicate severe damages to U.S. crop yields under climate change". PNAS 106.37 (2009): 15594-15598.
+
+[9]Sudarshan, Anant and Meenu Tewari. "The economic impacts of temperature on industrial productivity: evidence from Indian manufacturing". Working paper (2014).
+
+[10]Tripathi, Shivam, V. V. Srinivas, and Ravi S. Nanjundiah. "Downscaling of precipitation for climate change scenarios: a support vector machine approach." Journal of hydrology 330.3-4 (2006): 621-640.
+
+[11]Burke M, Hsiang SM, Miguel E. Global non-linear effect of temperature on economic production. Nature. 2015 Nov;527(7577):235.
