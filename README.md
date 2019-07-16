@@ -16,18 +16,18 @@ Before we try to fit our model, we briefly look at the impact of time, temperatu
 
 
 # Transforming the Data
-Before discussing the methods implemented in order to tranform this specific dataset,here is a table that lists all varibales used throughout this process.
+Before discussing the methods implemented in order to tranform this specific dataset, here is a table that lists all varibales used throughout this process.
 
 | Dependent Variables | Features |
 | --- | --- |
 | Y | Temperature (T)(C)|
-|   | Temperature Squared (Tsqaure)(C square)|
+|   | Temperature Squared (Tsquare)(C square)|
 |   | Precipitation (P)(mm)|
 |   | Precipitation Squared (Psquare)(mm square)|
 
-Note: The reason for making use of Tsquare and Psquare is to 'create' more features for finding possible stronger correlations on our data.
+Note: The reason for using Tsquare and Psquare is to 'create' more features for finding possible stronger correlations on our data.
 
-For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and makes the use of lag dependent variables as regressors. In the Arellano–Bond method, first difference of the regression equation are taken to eliminate the fixed effects. Then, deeper lags of the dependent variable are used as instruments for differenced lags of the dependent variable (which are endogenous).
+For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and uses lag dependent variables as regressors. In the Arellano–Bond method, first difference of the regression equation are taken to eliminate the fixed effects. Then, deeper lags of the dependent variable are used as instruments for differenced lags of the dependent variable (which are endogenous).
 
 # Data Analysis
 ## Arellano–Bond method (using STATA)
