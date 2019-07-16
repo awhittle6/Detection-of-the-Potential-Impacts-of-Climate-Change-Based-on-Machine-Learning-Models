@@ -40,6 +40,7 @@ where
 - $T$: temperature
 - $P$: precipitation
 
+### Results:
 
 ![Image of Yaktocat](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/stata%20best%20result.jpg)
 
