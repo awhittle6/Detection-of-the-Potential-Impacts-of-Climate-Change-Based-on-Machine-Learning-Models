@@ -20,7 +20,7 @@ Before discussing the methods implemented in order to tranform this specific dat
 
 | Dependent Variables | Features |
 | --- | --- |
-| Y | Temperature (T)(C)|
+| GDP Growth (Y)(%) | Temperature (T)(C)|
 |   | Temperature Squared (Tsquare)(C square)|
 |   | Precipitation (P)(mm)|
 |   | Precipitation Squared (Psquare)(mm square)|
