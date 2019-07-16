@@ -62,4 +62,5 @@ From the Arellano–Bond method in STATA:
 
 ![Image of Yaktocat](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/stata%20best%20result.jpg)
 
-![image of results]()
+![image of results1](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/y_t.png)
+
