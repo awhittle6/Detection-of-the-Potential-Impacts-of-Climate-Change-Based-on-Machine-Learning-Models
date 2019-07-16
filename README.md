@@ -8,7 +8,7 @@ Most of the previous research focuses on the ecological impacts of climate chang
 # Data Preprocessing:
 In our analysis, we use annual GDP growth, annual average temperature and annual average precipitation in our model. Our main source of data are the World Bank’s World Development Indicators and Climate Change Knowledge Portal, which cover the years 1960-2016 for all countries in the world, although data for only a subset of years are available for some countries. We focus on the data in recent years, that is, 2003-2016. And we filter out 179 countries in the world with complete data set. Our full dataset contains 2506 country-year observations across 179 countries and during 14 years. Each of the observation has 3 dimensions: GDP growth, temperature and precipitation.
 
-
+![Test Image 1](GDP Growth In Time Series.png)
 
 # References:
 [1]Araújo, Miguel B., and Carsten Rahbek. "How does climate change affect biodiversity?." Science 313.5792 (2006): 1396-1397.
