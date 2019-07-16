@@ -5,7 +5,8 @@ The prediction of weather has always been complicated. The process is subject to
 
 Most of the previous research focuses on the ecological impacts of climate change which have more or less an evident relationship we can sense based on our knowledge. In our project, we will try to distinguish the impacts which may seem vague at first glance. We will employ different kinds of regression models to analyze several important aspects such as population density, disease rate, industry, agricultural output, etc. in order to demonstrate the huge influence that climate change has on us.
 
-# Data Preprocessing
+# Data Preprocessing:
+In our analysis, we use annual GDP growth, annual average temperature and annual average precipitation in our model. Our main source of data are the World Bank’s World Development Indicators and Climate Change Knowledge Portal, which cover the years 1960-2016 for all countries in the world, although data for only a subset of years are available for some countries. We focus on the data in recent years, that is, 2003-2016. And we filter out 179 countries in the world with complete data set. Our full dataset contains 2506 country-year observations across 179 countries and during 14 years. Each of the observation has 3 dimensions: GDP growth, temperature and precipitation.
 
 # References:
 [1]Araújo, Miguel B., and Carsten Rahbek. "How does climate change affect biodiversity?." Science 313.5792 (2006): 1396-1397.
@@ -29,3 +30,7 @@ Most of the previous research focuses on the ecological impacts of climate chang
 [10]Tripathi, Shivam, V. V. Srinivas, and Ravi S. Nanjundiah. "Downscaling of precipitation for climate change scenarios: a support vector machine approach." Journal of hydrology 330.3-4 (2006): 621-640.
 
 [11]Burke M, Hsiang SM, Miguel E. Global non-linear effect of temperature on economic production. Nature. 2015 Nov;527(7577):235.
+
+[12] https://en.wikipedia.org/wiki/Arellano%E2%80%93Bond_estimator
+
+[13]World Bank Group. World Development Indicators 2018 (World Bank Publications, 2018).
