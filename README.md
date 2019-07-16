@@ -58,7 +58,14 @@ Note: The reason for making use of Tsquare and Psquare is to 'create' more featu
 For our first part in transforming the data, we implement the Arellano–Bond estimator through STATA. This bond estimator is a generalized method of moments estimator used to estimate dynamic panel data models and makes the use of lag dependent variables as regressors. In the Arellano–Bond method, first difference of the regression equation are taken to eliminate the fixed effects. Then, deeper lags of the dependent variable are used as instruments for differenced lags of the dependent variable (which are endogenous).
 
 # Results
-## From the Arellano–Bond method in STATA: 
+## From the Arellano–Bond method in STATA:
+### Linear regression function:
+$Y_{i,t} = \beta_0 + \beta_1 * Y_{i,t-1} + \beta_2 * T_{i,t} + \beta_3 * T_{i,t}^2 + \beta_4 * P_{i,t} + \beta_5 * P_{i,t}^2 + \epsilon_{i,t}$
+where
+- $Y$: growth rate of GDP per capita
+- $T$: temperature
+- $P$: precipitation
+
 
 ![Image of Yaktocat](https://github.com/awhittle6/Detection-of-the-Potential-Impacts-of-Climate-Change-Based-on-Machine-Learning-Models/blob/master/stata%20best%20result.jpg)
 
